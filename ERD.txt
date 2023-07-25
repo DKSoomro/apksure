@@ -1,0 +1,66 @@
+Apps
+{
+    [id] 
+    [url]
+    [image] 
+    [title]
+    [author]
+    [author_link] 
+    [cat_id]
+    [price]
+    [screenshot_id]
+    [description]
+    [description_html]
+    [rating]
+    [votes] 
+    [last_updated] 
+    [size]  
+    [downloads] 
+    [version] 
+    [content_rating]
+    [whatsnew]
+    [video_link] 
+    [video_image]
+	[download_link]
+}
+Games
+{
+    [game_id] 
+    [url]
+    [image] 
+    [title]
+    [author]
+    [author_link] 
+    [categories] 
+    [price] 
+    [screenshots] 
+    [description]
+    [description_html]
+    [rating]
+    [votes] 
+    [last_updated] 
+    [size]  
+    [downloads] 
+    [version] 
+    [content_rating]
+    [whatsnew]
+    [video_link] 
+    [video_image]
+	[download_link]
+}
+Categories
+{
+	cat_id
+	cat_name
+	cat_image
+}
+Versions{
+	version_id
+	version
+	id
+}
+Screenshots{
+	screenshot_id
+	screenshot
+	id
+}

@@ -1,0 +1,484 @@
+.formcss .form-group {
+    flex: 0 0 48%;
+    margin: 1% 1%;
+}
+
+.formcss form.forms-sample {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.star-color {
+    color: grey !important;
+}
+
+.formcss .fulltext {
+    flex: 0 0 98%;
+}
+
+.formcss .form-group input {
+    padding: 20px;
+}
+
+.brandmain #order-listing span.update-btn.btn.btn-info.btn-block.updatee {
+    /* left: -25px;
+    top: initial;
+    bottom: -23px; */
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background: #00d49c !important;
+}
+
+.select2-container--focus input:focus {
+    border: 0 !important;
+}
+
+.navbar.default-layout .navbar-brand-wrapper .navbar-brand img {
+    width: 100%;
+}
+
+.sidebar-icon-only ul li.active a.nav-link {
+    padding-left: 25px !important;
+}
+
+.timeline .timeline-item:nth-child(even):before {
+    background: rgb(168, 157, 157);
+}
+
+.timeline .timeline-item:nth-child(odd):before {
+    background: #00d49c;
+}
+
+.form-check.form-check-flat label input:checked+.input-helper:before {
+    background-color: #00d49c;
+    border: none;
+}
+
+.sidebar>.nav .nav-item.nav-profile .nav-link .profile-name {
+    color: #000;
+    margin: 0;
+}
+
+.text-primary {
+    color: #00d49c !important;
+}
+
+.btn-primary,
+.wizard>.actions a {
+    background: #00d49c!important;
+    border-color: #00d49c !important;
+}
+
+.btn-primary:hover,
+.wizard>.actions a:hover {
+    background: transparent !important;
+    color: #00d49c !important;
+    border-color: #00d49c !important;
+}
+
+.dd {
+    align-items: center;
+}
+
+.img-leftside img {
+    height: 40px !important;
+}
+
+.fa-trash {
+    color: #00d49c !important;
+}
+
+.pagination .page-item.active .page-link,
+.jsgrid .jsgrid-pager .page-item.active .page-link,
+.jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button .page-link,
+.jsgrid .jsgrid-pager .active.jsgrid-pager-page .page-link,
+.pagination .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .page-item.active .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item.active a,
+.jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button a,
+.pagination .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .page-item.active .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page .page-item.active a,
+.jsgrid .jsgrid-pager .active.jsgrid-pager-page a,
+.pagination .page-item:active .page-link,
+.jsgrid .jsgrid-pager .page-item:active .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:active .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:active .page-link,
+.pagination .page-item:active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .page-item:active .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:active a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:active a,
+.pagination .page-item:active .jsgrid .jsgrid-pager .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .page-item:active .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:active a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:active a,
+.pagination .page-item:focus .page-link,
+.jsgrid .jsgrid-pager .page-item:focus .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:focus .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:focus .page-link,
+.pagination .page-item:focus .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .page-item:focus .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:focus a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:focus a,
+.pagination .page-item:focus .jsgrid .jsgrid-pager .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .page-item:focus .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:focus a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:focus a,
+.pagination .page-item:hover .page-link,
+.jsgrid .jsgrid-pager .page-item:hover .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:hover .page-link,
+.pagination .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .page-item:hover .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:hover a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover a,
+.pagination .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .page-item:hover .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:hover a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:hover a {
+    background: #00d49c !important;
+    border-color: #00d49c !important;
+}
+
+.fa {
+    cursor: pointer !important;
+}
+
+.breadcrumb-item.active a {
+    color: #00d49c !important;
+}
+
+.update-btn {
+    padding: 2px 4px;
+    margin-left: 3px;
+}
+
+.sidebar>.nav:not(.sub-menu)>.nav-item>.nav-link {
+    color: #333232;
+    border-color: #00d49c;
+}
+
+.sidebar>.nav .nav-item:not(.hover-open) .collapse .sub-menu .nav-item .nav-link,
+.sidebar>.nav .nav-item:not(.hover-open) .collapsing .sub-menu .nav-item .nav-link {
+    color: #00d49c;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    display: none;
+}
+
+.sidebar-icon-only .navbar .navbar-brand-wrapper .brand-logo-mini img {
+    width: 41px;
+}
+
+.btn-info:hover,
+.editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit:hover {
+    background: transparent;
+    color: #00d49c;
+    border-color: #00d49c;
+}
+
+.btn-outline-primary:hover,
+.wizard>.actions .disabled a:hover {
+    background: #00d49c;
+    border-color: #00d49c;
+    color: #fff !important;
+}
+
+.pagination .page-item.active .page-link,
+.jsgrid .jsgrid-pager .page-item.active .page-link,
+.jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button .page-link,
+.jsgrid .jsgrid-pager .active.jsgrid-pager-page .page-link,
+.pagination .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .page-item.active .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item.active a,
+.jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button a,
+.pagination .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .page-item.active .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page .page-item.active a,
+.jsgrid .jsgrid-pager .active.jsgrid-pager-page a,
+.pagination .page-item:active .page-link,
+.jsgrid .jsgrid-pager .page-item:active .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:active .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:active .page-link,
+.pagination .page-item:active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .page-item:active .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:active a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:active a,
+.pagination .page-item:active .jsgrid .jsgrid-pager .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .page-item:active .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:active a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:active a,
+.pagination .page-item:focus .page-link,
+.jsgrid .jsgrid-pager .page-item:focus .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:focus .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:focus .page-link,
+.pagination .page-item:focus .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .page-item:focus .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:focus a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:focus a,
+.pagination .page-item:focus .jsgrid .jsgrid-pager .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .page-item:focus .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:foc vus a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:focus a,
+.pagination .page-item:hover .page-link,
+.jsgrid .jsgrid-pager .page-item:hover .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover .page-link,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:hover .page-link,
+.pagination .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .page-item:hover .jsgrid-pager-nav-button a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:hover a,
+.jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover a,
+.pagination .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .page-item:hover .jsgrid-pager-page a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:hover a,
+.jsgrid .jsgrid-pager .jsgrid-pager-page:hover a {
+    background: #00d49c;
+    border-color: #00d49c;
+}
+
+.btn-success:hover {
+    background: transparent;
+    color: #00d49c;
+    border-color: #00d49c;
+}
+
+.btn-info,
+.editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit {
+    background: #00d49c;
+    border-color: #00d49c;
+}
+
+.btn-success {
+    background: #00d49c;
+    border-color: #00d49c;
+}
+
+.btn-outline-primary,
+.wizard>.actions .disabled a {
+    color: #00d49c !important;
+    border-color: #00d49c !important;
+}
+
+.sidebar>.nav .nav-item:not(.hover-open) .collapse .sub-menu .nav-item .nav-link:hover,
+.sidebar>.nav .nav-item:not(.hover-open) .collapsing .sub-menu .nav-item .nav-link:hover {
+    color: #00d49c;
+}
+
+.sidebar>.nav:not(.sub-menu)>.nav-item.active:not(.nav-profile):not(.hover-open)>.nav-link:not([aria-expanded="true"]) {
+    background: #00d49c!important;
+}
+
+.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link {
+    background: #00d49c!important;
+}
+
+.sidebar>.nav:not(.sub-menu)>.nav-item:hover:not(.nav-profile):not(.hover-open)>.nav-link:not([aria-expanded="true"]) {
+    background: #00d49c !important;
+}
+
+.sidebar>.nav .nav-item:not(.hover-open) .collapse .sub-menu .nav-item .nav-link:before,
+.sidebar>.nav .nav-item:not(.hover-open) .collapsing .sub-menu .nav-item .nav-link:before {
+    background: #dadada;
+}
+
+.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
+    background: #00d49c;
+    color: #fff;
+}
+
+.navbar.default-layout .navbar-brand-wrapper {
+    background: #00d49c;
+}
+
+.sidebar {
+    background: #fff;
+    /*   background: -webkit-gradient(linear, left bottom, left top, from(#ff4413), to(#9b2000));
+    background: linear-gradient(to top, #9b2000, #ff4413);
+*/
+}
+
+.table tbody td a {
+    color: inherit;
+}
+
+.form-group label.error {
+    position: absolute;
+    width: max-content;
+    right: 0;
+    top: -16px;
+    color: #ff0101;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.form-group,
+.form-group input {
+    position: relative;
+}
+
+p.errr_msg {
+    position: absolute;
+    right: 17px;
+    font-size: 12;
+}
+
+.form-group label {
+    width: 100%;
+}
+
+.form-group .form-radio {
+    margin-top: 5px;
+    margin-right: 23px;
+}
+
+.modelget img {
+    width: 100%;
+}
+
+.sidebar>.nav .nav-item:not(.hover-open) .collapse .sub-menu .nav-item a.nav-link.active {
+    color: #00d49c;
+}
+
+.card .card-body table tr td input[readonly=true],
+.card .card-body table tr td input[readonly] {
+    border: 0;
+}
+
+.sidebar>.nav .nav-item:not(.hover-open) .collapse .sub-menu .nav-item .nav-link.active:before {
+    background: #00d49c;
+}
+
+.sidebar>.nav:not(.sub-menu)>.nav-item.active:not(.nav-profile):not(.hover-open)>.nav-link:not([aria-expanded="true"]) {
+    background: #0f25d5;
+    padding-left: 65px;
+}
+
+.sidebar-icon-only .sidebar .nav .nav-item .nav-link i {
+    color: #393838;
+}
+
+.sidebar>.nav .nav-item.active>.nav-link i {
+    color: #fff;
+}
+
+.sidebar-icon-only .sidebar .nav li.nav-item.hover-open .collapse {
+    margin: 0;
+}
+
+.sidebar-icon-only .sidebar .nav .nav-item.active.hover-open .nav-link i,
+.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link i {
+    color: #fff !important;
+}
+
+.sidebar>.nav .nav-item.active>.nav-link {
+    color: #fff;
+    background: #00d49c;
+}
+
+.sidebar>.nav>.nav-item:not(.nav-profile)>.nav-link:before {
+    border-color: #00d49c;
+}
+
+.sidebar>.nav .nav-item.active>.nav-link:before {
+    border-color: #fff;
+}
+
+.sidebar>.nav .nav-item.active>.nav-link i.menu-arrow:before {
+    color: #fff !IMPORTANT;
+}
+
+.sidebar>.nav .nav-item .collapse {
+    margin: 20px 0;
+}
+
+.sidebar>.nav .nav-item:not(.hover-open) .collapse .sub-menu .nav-item .nav-link:hover:before {
+    background: #00d49c;
+}
+
+.main-panel a {
+    color: #00d49c;
+}
+
+.dataTables_wrapper .dataTable tbody tr td .input-helper:before,
+.dataTables_wrapper .dataTable tbody tr td .input-helper:after {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.page-title-header {
+    align-items: center;
+}
+
+.page-title-header ol.breadcrumb {
+    margin: 0;
+    justify-content: flex-end;
+    padding-right: 0;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+.select2-container--focus {
+    border: 1px solid#00d49c !important;
+}
+
+.select2-container--focus .select2-selection:focus {
+    border: 0;
+}
+
+#order-listing span.update-btn.btn.btn-info.btn-block.updatee {
+    /* position: absolute;
+    right: 0;
+    left: -127px;
+    width: 100px;
+    top: -2px; */
+}
+
+#order-listing i.fa.fa-edit {
+    position: relative;
+}
+
+.formcss.gridinput3 .form-group {
+    flex: 0 0 31.3%;
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+    opacity: 1;
+}
+
+.btn-success:disabled {
+    background: red;
+    border-color: red;
+    opacity: 1;
+}
+
+.btn-success:disabled:hover {
+    color: #fff;
+}
+
+.text_orange {
+    color: #00d49c;
+}
+
+.img-leftside {
+    float: left;
+    margin-right: 10px;
+}
+
+.img-leftside img {
+    max-width: 60px;
+}
+
+.update-btn {
+    display: block;
+    margin-top: 10px;
+}
+
+.form-radio label input+.input-helper:after {
+    background: #00d49c !important;
+}
